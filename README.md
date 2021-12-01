@@ -17,7 +17,7 @@
     - Given an end-game, we need to continously make "Four"(死四或活四）until the game ends.
     - input : an end-game of Gomoku
     - output : whether there exists a strategy to continuously make "Four" until win the game.
-![](https://i.imgur.com/p4rt3qc.png =300x)
+![](https://i.imgur.com/p4rt3qc.png)
 - What we have done：
     - only black or only white can be placed on board(i,j)： $\lnot{B_{{i},{j}}} \lor \lnot{W_{{i},{j}}}$
     - if black or while has occupied board(i,j), then mark board(i,j)：${B_{{i},{j}}} \lor {W_{{i},{j}}} \Longrightarrow {X_{{i},{j}}}$
